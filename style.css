@@ -1,0 +1,420 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+Main COLOR: #087f5b 
+Grey COLOR: #343a40
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: 8px solid #e8590c;
+  line-height: 1;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header,
+section {
+  margin-bottom: 96px;
+}
+
+.carousel-section {
+  margin-top: 110px;
+  margin-bottom: 140px;
+}
+
+/* .testimonial-section {
+  background-color: #e8590c;
+  color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+} */
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 30px;
+  /*  24 / 30 / 36 */
+  letter-spacing: -0.5px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #e8590c;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 500;
+  /* border-radius: 12px; */
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f76707;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+/* ------------------------ */
+/* COMPONENT STYLES */
+/* ------------------------ */
+
+/* HEADER */
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 80px;
+}
+
+.header-text-box {
+  align-self: center;
+  font-size: 18px;
+  /*  16 / 18 / 20 */
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 32px;
+  font-size: 44px;
+  /* 44 / 52 / 62 / 74 */
+  line-height: 1.1;
+  letter-spacing: -1px;
+  /* text-shadow: rgba(100, 100, 111, 0.2) 0px 5px 3px; */
+}
+
+.header-text {
+  margin-bottom: 24px;
+}
+
+img {
+  width: 100%;
+}
+
+/* FEATURES */
+.features-icon {
+  stroke: #e8590c;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+
+.features-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  /* 18 / 20 / 24  */
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* TESTIMONIAL */
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.testimonial-text {
+  color: #ffd8a8;
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+  /*  16 / 18 / 20 */
+  line-height: 1.5;
+}
+
+.testimonial-author {
+  color: #ffd8a8;
+}
+
+/* sneakersS */
+.sneakers {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+}
+
+.sneakers img {
+  border-radius: 12px 12px 0px 0px;
+  /* 
+  or
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; 
+  */
+}
+
+.sneakers-box {
+  padding: 32px;
+}
+
+h3 {
+  margin-bottom: 24px;
+  font-size: 20px;
+  /* 20 / 24 / 30 */
+}
+
+.sneakers-details {
+  list-style: none;
+  margin-bottom: 48px;
+}
+
+.sneakers-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.sneakers-details li:last-child {
+  margin-bottom: 0;
+}
+
+.sneakers-icon {
+  stroke: #e8590c;
+  width: 24px;
+}
+
+.sneakers-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+footer {
+  margin-bottom: 48px;
+  font-size: 14px;
+  /* 12 / 14 / 16 */
+  color: #495057;
+}
+
+/*  Accordion Styling*/
+
+.accordion {
+  width: 900px;
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.item {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.number,
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  /* color: #e8590c; */
+}
+
+.title,
+.icon {
+  cursor: pointer; /* Optional, for better specificity */
+}
+
+.number {
+  color: #ced4da;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #e8590c;
+}
+
+.hidden-box {
+  grid-column: 2;
+  display: none;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.open {
+  border-top: 4px solid #e8590c;
+
+  .hidden-box {
+    display: block;
+  }
+
+  .number,
+  .title {
+    color: #e8590c;
+  }
+}
+
+h2 {
+  /* text-align: center; */
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+/* Carousel Styling */
+.carousel {
+  width: 1000px;
+  background-color: #e8590c;
+  padding: 32px;
+  padding-left: 98px;
+  padding-right: 48px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 86px;
+  position: relative;
+}
+
+.testimonial-img {
+  width: 200px;
+  border-radius: 12px;
+
+  transform: scale(1.6);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #fff4e6;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #ffe8cc;
+}
+
+.testimonial-job {
+  font-size: 12px;
+  color: #ffe8cc;
+}
+
+/* Controls */
+.testimonial-btn {
+  background-color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--left {
+  /* In relation to parent element */
+  left: 0;
+  top: 50%;
+
+  /* In relation to element himself*/
+  transform: translate(-50%, -50%);
+}
+
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #e8590c;
+}
+
+.dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 48px);
+
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #e8590c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot-fill {
+  background-color: #e8590c;
+}
+
+.hidden {
+  display: none;
+}

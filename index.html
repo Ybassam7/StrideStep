@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>StrideStep</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-text-box">
+          <h1>We design and craft better sneakers, for a better lifestyle</h1>
+          <p class="header-text">
+            At StrideStep, we obsess over every stitch and sole. The result is
+            the perfect balance of performance, comfort, and style.
+          </p>
+          <a class="btn btn--big" href="#">Shop sneakers</a>
+        </div>
+        <img src="./images/hero2.jpg" alt="Photo" />
+      </header>
+
+      <section>
+        <h2>What makes our sneakers special</h2>
+        <div class="grid-3-cols">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="features-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <p class="features-title">
+              <strong>Performance All Day</strong>
+            </p>
+            <p class="features-text">
+              Our sneakers are built for performance and all-day wear, combining
+              cutting-edge materials with ergonomic design.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="features-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+
+            <p class="features-title">
+              <strong>Style-Forward Design</strong>
+            </p>
+            <p class="features-text">
+              Every pair is crafted with style in mind — whether you're hitting
+              the streets or going casual.
+            </p>
+          </div>
+
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              class="features-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"
+              />
+            </svg>
+
+            <p class="features-title">
+              <strong>Eco-Conscious Materials</strong>
+            </p>
+            <p class="features-text">
+              We use vegan leather, organic cotton, and recycled rubber to craft
+              sustainable sneakers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-section">
+        <!-- <h2>What Our Customers Say About StrideStep</h2> -->
+        <div class="carousel">
+          <img
+            src="./images/customer1.jpg"
+            alt="Chris Evans"
+            class="testimonial-img"
+          />
+          <blockquote class="testimonial">
+            <p class="testimonial-text">
+              "StrideStep sneakers are a perfect blend of comfort and
+              performance. I wear them for my daily runs and meetings!"
+            </p>
+            <p class="testimonial-author">Chris Evans</p>
+            <p class="testimonial-job">Fitness Coach & Entrepreneur</p>
+          </blockquote>
+
+          <img
+            src="./images/customer2.jpg"
+            alt="Lana Smith"
+            class="testimonial-img hidden"
+          />
+          <blockquote class="testimonial hidden">
+            <p class="testimonial-text">
+              "The eco-friendly materials make me feel good about my purchase.
+              Stylish and sustainable — love them!"
+            </p>
+            <p class="testimonial-author">Lana Smith</p>
+            <p class="testimonial-job">Sustainability Blogger</p>
+          </blockquote>
+
+          <img
+            src="./images/customer3.jpg"
+            alt="Marcus Liu"
+            class="testimonial-img hidden"
+          />
+          <blockquote class="testimonial hidden">
+            <p class="testimonial-text">
+              "These are the only sneakers I take with me when I travel. Light,
+              stylish, and super reliable."
+            </p>
+            <p class="testimonial-author">Marcus Liu</p>
+            <p class="testimonial-job">Travel Vlogger</p>
+          </blockquote>
+
+          <img
+            src="./images/customer4.jpg"
+            alt="Aisha El-Masry"
+            class="testimonial-img hidden"
+          />
+          <blockquote class="testimonial hidden">
+            <p class="testimonial-text">
+              "I used to struggle with sneakers that looked good but hurt my
+              feet. StrideStep fixed that!"
+            </p>
+            <p class="testimonial-author">Aisha El-Masry</p>
+            <p class="testimonial-job">UX Designer</p>
+          </blockquote>
+
+          <button class="testimonial-btn btn--left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="btn-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+          <button class="testimonial-btn btn--right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="currentColor"
+              class="btn-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+          <div class="dots">
+            <button class="dot dot-fill" data-slide="0">&nbsp;</button>
+            <button class="dot" data-slide="1">&nbsp;</button>
+            <button class="dot" data-slide="2">&nbsp;</button>
+            <button class="dot" data-slide="3">&nbsp;</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="bestselling">
+        <h2>Our bestselling sneakers</h2>
+        <div class="grid-3-cols">
+          <figure class="sneakers">
+            <img src="./images/Sneakers-3.png" alt="sneakers" />
+            <div class="sneakers-box">
+              <h3>Trail Blazer</h3>
+              <ul class="sneakers-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"
+                    />
+                  </svg>
+
+                  <!-- Span is a generic INLINE text element, it doesn't have any meaning. It's like a div element, but inline -->
+                  <span>Outdoor grip</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z"
+                    />
+                  </svg>
+
+                  <span>Comfortable for hikes</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"
+                    />
+                  </svg>
+
+                  <span>Recycled mesh fabric</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+                    />
+                  </svg>
+
+                  <span>Weighs 310g</span>
+                </li>
+              </ul>
+              <div class="sneakers-price">
+                <strong>120€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="sneakers">
+            <img src="./images/Sneakers-1.png" alt="sneakers" />
+            <div class="sneakers-box">
+              <h3>Urban Runner</h3>
+              <ul class="sneakers-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"
+                    />
+                  </svg>
+                  <span>Everyday comfort</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                    />
+                  </svg>
+                  <span>Comfortable all-day</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"
+                    />
+                  </svg>
+                  <span>Vegan leather</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+                    />
+                  </svg>
+                  <span>Weighs 250g</span>
+                </li>
+              </ul>
+              <div class="sneakers-price">
+                <strong>95€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+
+          <figure class="sneakers">
+            <img src="./images/Sneakers-2.png" alt="sneakers" />
+            <div class="sneakers-box">
+              <h3>RedStep</h3>
+              <ul class="sneakers-details">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"
+                    />
+                  </svg>
+                  <span>Super lightweight</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z"
+                    />
+                  </svg>
+
+                  <span>Cloud-like cushioning</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 0 1-1.161.886l-.143.048a1.107 1.107 0 0 0-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 0 1-1.652.928l-.679-.906a1.125 1.125 0 0 0-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 0 0-8.862 12.872M12.75 3.031a9 9 0 0 1 6.69 14.036m0 0-.177-.529A2.25 2.25 0 0 0 17.128 15H16.5l-.324-.324a1.453 1.453 0 0 0-2.328.377l-.036.073a1.586 1.586 0 0 1-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 0 1-5.276 3.67m0 0a9 9 0 0 1-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"
+                    />
+                  </svg>
+                  <span>Organic cotton</span>
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    class="sneakers-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+                    />
+                  </svg>
+                  <span>Weighs 200g</span>
+                </li>
+              </ul>
+              <div class="sneakers-price">
+                <strong>135€</strong>
+                <a href="#" class="btn btn--small">Add to cart</a>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="faq-section">
+        <h2>Frequently asked questions</h2>
+        <div class="accordion">
+          <div class="item">
+            <p class="number">01</p>
+            <p class="title">What is your return policy?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                You can return your sneakers within 30 days, no questions asked,
+                as long as they’re in original condition.
+              </p>
+              <ul>
+                <li>Full refund within 30 days</li>
+                <li>Free return shipping</li>
+                <li>Refunds processed in 5-7 business days</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <p class="number">02</p>
+            <p class="title">Do you offer international shipping?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                Yes! We ship worldwide. Delivery times and shipping costs vary
+                depending on your location.
+              </p>
+              <ul>
+                <li>Europe: 3–5 business days</li>
+                <li>USA & Canada: 5–7 business days</li>
+                <li>Rest of world: 7–14 business days</li>
+              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <p class="number">03</p>
+            <p class="title">How should I care for my sneakers?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                We recommend using a damp cloth for cleaning. Avoid machine
+                washing to preserve material quality.
+              </p>
+              <ul>
+                <li>Spot clean only</li>
+                <li>Use mild soap if needed</li>
+                <li>Air dry—don’t use dryers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="testimonial-section">
+        <div class="grid-3-cols">
+          <img src="./images/customers.jpg" alt="People sitting on sneakerss" />
+          <div class="testimonial-box">
+            <h2>"We couldn't imagine life without StrideStep sneakers"</h2>
+            <blockquote class="testimonial-text">
+              Whether walking the city or traveling the world, these sneakers
+              have become an everyday essential.
+            </blockquote>
+            <p class="testimonial-author">&mdash; Alex and Jordan Carter</p>
+          </div>
+        </div>
+      </section> -->
+
+      <footer>&copy; 2025 StrideStep. All rights reserved.</footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
