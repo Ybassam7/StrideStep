@@ -10,5 +10,3 @@ check it out live at : https://ybassam7.github.io/StrideStep/
 - Accordion FAQ section to handle customer questions
 - Testimonial carousel with engaging visuals and navigation
 - Product feature cards with pricing and descriptions
-
-  This project was built as a front-end practice exercise to simulate a real-world product landing page for a local Sneakers brand.
